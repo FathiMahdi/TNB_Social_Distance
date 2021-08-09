@@ -1,0 +1,3 @@
+for images: python3 darknet_images.py --input /home/Social_Distance/dataSet/pic05051.png --batch_size 1 --weights /home/Social_Distance/darknet/backup/yolov3_900.weights  --config_file /home/Social_Distance/darknet/cfg/yolo-obj.cfg --data_file /home/Social_Distance/darknet/data/obj.data
+
+for videos: sudo python3 darknet_video.py --input /mnt/k/Social_Distance/TES_vid/TES_DATA_1.mp4 --weights /home/Social_Distance/darknet/backup/yolo-obj_last.weights  --config_file /home/Social_Distance/darknet/cfg/yolo-obj.cfg --data_file /home/Social_Distance/darknet/data/obj.data --out_filename r_s_l_t.mp4 --dont_show

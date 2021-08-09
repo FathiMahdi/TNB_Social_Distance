@@ -1,0 +1,6 @@
+classes= 17
+train  = /home/Social_Distance/darknet/train.txt
+valid  = /home/Social_Distance/darknet/valid.txt
+names  = /home/Social_Distance/darknet/data/obj.names
+backup = /home/Social_Distance/darknet/backup/
+
